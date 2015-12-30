@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494C87E31C336FD6000721F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87E21C336FD6000721F5 /* main.m */; };
+		494C87E61C336FD6000721F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87E51C336FD6000721F5 /* AppDelegate.m */; };
+		494C87E91C336FD6000721F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87E81C336FD6000721F5 /* ViewController.m */; };
+		494C87EC1C336FD6000721F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494C87EA1C336FD6000721F5 /* Main.storyboard */; };
+		494C87EE1C336FD6000721F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494C87ED1C336FD6000721F5 /* Assets.xcassets */; };
+		494C87F11C336FD6000721F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494C87EF1C336FD6000721F5 /* LaunchScreen.storyboard */; };
+		494C87FC1C336FD6000721F5 /* UI14_TableView____cell_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87FB1C336FD6000721F5 /* UI14_TableView____cell_______Tests.m */; };
+		494C88071C336FD6000721F5 /* UI14_TableView____cell_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C88061C336FD6000721F5 /* UI14_TableView____cell_______UITests.m */; };
+		494C88161C33718D000721F5 /* CellOfContect.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C88151C33718D000721F5 /* CellOfContect.m */; };
+		494C881A1C338542000721F5 /* s.png in Resources */ = {isa = PBXBuildFile; fileRef = 494C88191C338542000721F5 /* s.png */; };
+		494C881C1C3385B2000721F5 /* r.png in Resources */ = {isa = PBXBuildFile; fileRef = 494C881B1C3385B2000721F5 /* r.png */; };
+		494C881E1C3386D4000721F5 /* t.png in Resources */ = {isa = PBXBuildFile; fileRef = 494C881D1C3386D4000721F5 /* t.png */; };
+		494C88211C33887D000721F5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C88201C33887D000721F5 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		494C87F81C336FD6000721F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494C87D61C336FD6000721F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494C87DD1C336FD6000721F5;
+			remoteInfo = "UI14_TableView自定义 cell 代理设计模式";
+		};
+		494C88031C336FD6000721F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494C87D61C336FD6000721F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494C87DD1C336FD6000721F5;
+			remoteInfo = "UI14_TableView自定义 cell 代理设计模式";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		494C87DE1C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI14_TableView自定义 cell 代理设计模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C87E21C336FD6000721F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		494C87E41C336FD6000721F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		494C87E51C336FD6000721F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		494C87E71C336FD6000721F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		494C87E81C336FD6000721F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		494C87EB1C336FD6000721F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		494C87ED1C336FD6000721F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494C87F01C336FD6000721F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		494C87F21C336FD6000721F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494C87F71C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI14_TableView自定义 cell 代理设计模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C87FB1C336FD6000721F5 /* UI14_TableView____cell_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI14_TableView____cell_______Tests.m"; sourceTree = "<group>"; };
+		494C87FD1C336FD6000721F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494C88021C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI14_TableView自定义 cell 代理设计模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C88061C336FD6000721F5 /* UI14_TableView____cell_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI14_TableView____cell_______UITests.m"; sourceTree = "<group>"; };
+		494C88081C336FD6000721F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494C88141C33718D000721F5 /* CellOfContect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellOfContect.h; sourceTree = "<group>"; };
+		494C88151C33718D000721F5 /* CellOfContect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellOfContect.m; sourceTree = "<group>"; };
+		494C88191C338542000721F5 /* s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s.png; sourceTree = "<group>"; };
+		494C881B1C3385B2000721F5 /* r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r.png; sourceTree = "<group>"; };
+		494C881D1C3386D4000721F5 /* t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t.png; sourceTree = "<group>"; };
+		494C881F1C33887D000721F5 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		494C88201C33887D000721F5 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494C87DB1C336FD6000721F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494C87F41C336FD6000721F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494C87FF1C336FD6000721F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494C87D51C336FD6000721F5 = {
+			isa = PBXGroup;
+			children = (
+				494C87E01C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式 */,
+				494C87FA1C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式Tests */,
+				494C88051C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式UITests */,
+				494C87DF1C336FD6000721F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494C87DF1C336FD6000721F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494C87DE1C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式.app */,
+				494C87F71C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式Tests.xctest */,
+				494C88021C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494C87E01C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				494C87E41C336FD6000721F5 /* AppDelegate.h */,
+				494C881B1C3385B2000721F5 /* r.png */,
+				494C881D1C3386D4000721F5 /* t.png */,
+				494C88191C338542000721F5 /* s.png */,
+				494C87E51C336FD6000721F5 /* AppDelegate.m */,
+				494C88241C3388AA000721F5 /* pag.2 */,
+				494C88231C3388A0000721F5 /* pag.1 */,
+				494C87EA1C336FD6000721F5 /* Main.storyboard */,
+				494C87ED1C336FD6000721F5 /* Assets.xcassets */,
+				494C87EF1C336FD6000721F5 /* LaunchScreen.storyboard */,
+				494C87F21C336FD6000721F5 /* Info.plist */,
+				494C87E11C336FD6000721F5 /* Supporting Files */,
+			);
+			path = "UI14_TableView自定义 cell 代理设计模式";
+			sourceTree = "<group>";
+		};
+		494C87E11C336FD6000721F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				494C87E21C336FD6000721F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		494C87FA1C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式Tests */ = {
+			isa = PBXGroup;
+			children = (
+				494C87FB1C336FD6000721F5 /* UI14_TableView____cell_______Tests.m */,
+				494C87FD1C336FD6000721F5 /* Info.plist */,
+			);
+			path = "UI14_TableView自定义 cell 代理设计模式Tests";
+			sourceTree = "<group>";
+		};
+		494C88051C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式UITests */ = {
+			isa = PBXGroup;
+			children = (
+				494C88061C336FD6000721F5 /* UI14_TableView____cell_______UITests.m */,
+				494C88081C336FD6000721F5 /* Info.plist */,
+			);
+			path = "UI14_TableView自定义 cell 代理设计模式UITests";
+			sourceTree = "<group>";
+		};
+		494C88171C337DB0000721F5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				494C88141C33718D000721F5 /* CellOfContect.h */,
+				494C88151C33718D000721F5 /* CellOfContect.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		494C88181C337DB7000721F5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				494C87E71C336FD6000721F5 /* ViewController.h */,
+				494C87E81C336FD6000721F5 /* ViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		494C88221C338886000721F5 /* secondController */ = {
+			isa = PBXGroup;
+			children = (
+				494C881F1C33887D000721F5 /* SecondViewController.h */,
+				494C88201C33887D000721F5 /* SecondViewController.m */,
+			);
+			name = secondController;
+			sourceTree = "<group>";
+		};
+		494C88231C3388A0000721F5 /* pag.1 */ = {
+			isa = PBXGroup;
+			children = (
+				494C88181C337DB7000721F5 /* controller */,
+				494C88171C337DB0000721F5 /* view */,
+			);
+			name = pag.1;
+			sourceTree = "<group>";
+		};
+		494C88241C3388AA000721F5 /* pag.2 */ = {
+			isa = PBXGroup;
+			children = (
+				494C88221C338886000721F5 /* secondController */,
+			);
+			name = pag.2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494C87DD1C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494C880B1C336FD6000721F5 /* Build configuration list for PBXNativeTarget "UI14_TableView自定义 cell 代理设计模式" */;
+			buildPhases = (
+				494C87DA1C336FD6000721F5 /* Sources */,
+				494C87DB1C336FD6000721F5 /* Frameworks */,
+				494C87DC1C336FD6000721F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI14_TableView自定义 cell 代理设计模式";
+			productName = "UI14_TableView自定义 cell 代理设计模式";
+			productReference = 494C87DE1C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+		494C87F61C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494C880E1C336FD6000721F5 /* Build configuration list for PBXNativeTarget "UI14_TableView自定义 cell 代理设计模式Tests" */;
+			buildPhases = (
+				494C87F31C336FD6000721F5 /* Sources */,
+				494C87F41C336FD6000721F5 /* Frameworks */,
+				494C87F51C336FD6000721F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494C87F91C336FD6000721F5 /* PBXTargetDependency */,
+			);
+			name = "UI14_TableView自定义 cell 代理设计模式Tests";
+			productName = "UI14_TableView自定义 cell 代理设计模式Tests";
+			productReference = 494C87F71C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		494C88011C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494C88111C336FD6000721F5 /* Build configuration list for PBXNativeTarget "UI14_TableView自定义 cell 代理设计模式UITests" */;
+			buildPhases = (
+				494C87FE1C336FD6000721F5 /* Sources */,
+				494C87FF1C336FD6000721F5 /* Frameworks */,
+				494C88001C336FD6000721F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494C88041C336FD6000721F5 /* PBXTargetDependency */,
+			);
+			name = "UI14_TableView自定义 cell 代理设计模式UITests";
+			productName = "UI14_TableView自定义 cell 代理设计模式UITests";
+			productReference = 494C88021C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494C87D61C336FD6000721F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "doll-61";
+				TargetAttributes = {
+					494C87DD1C336FD6000721F5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					494C87F61C336FD6000721F5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 494C87DD1C336FD6000721F5;
+					};
+					494C88011C336FD6000721F5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 494C87DD1C336FD6000721F5;
+					};
+				};
+			};
+			buildConfigurationList = 494C87D91C336FD6000721F5 /* Build configuration list for PBXProject "UI14_TableView自定义 cell 代理设计模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 494C87D51C336FD6000721F5;
+			productRefGroup = 494C87DF1C336FD6000721F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494C87DD1C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式 */,
+				494C87F61C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式Tests */,
+				494C88011C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494C87DC1C336FD6000721F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C87F11C336FD6000721F5 /* LaunchScreen.storyboard in Resources */,
+				494C87EE1C336FD6000721F5 /* Assets.xcassets in Resources */,
+				494C881C1C3385B2000721F5 /* r.png in Resources */,
+				494C87EC1C336FD6000721F5 /* Main.storyboard in Resources */,
+				494C881A1C338542000721F5 /* s.png in Resources */,
+				494C881E1C3386D4000721F5 /* t.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494C87F51C336FD6000721F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494C88001C336FD6000721F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494C87DA1C336FD6000721F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C88211C33887D000721F5 /* SecondViewController.m in Sources */,
+				494C87E91C336FD6000721F5 /* ViewController.m in Sources */,
+				494C87E61C336FD6000721F5 /* AppDelegate.m in Sources */,
+				494C87E31C336FD6000721F5 /* main.m in Sources */,
+				494C88161C33718D000721F5 /* CellOfContect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494C87F31C336FD6000721F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C87FC1C336FD6000721F5 /* UI14_TableView____cell_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494C87FE1C336FD6000721F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C88071C336FD6000721F5 /* UI14_TableView____cell_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		494C87F91C336FD6000721F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494C87DD1C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式 */;
+			targetProxy = 494C87F81C336FD6000721F5 /* PBXContainerItemProxy */;
+		};
+		494C88041C336FD6000721F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494C87DD1C336FD6000721F5 /* UI14_TableView自定义 cell 代理设计模式 */;
+			targetProxy = 494C88031C336FD6000721F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		494C87EA1C336FD6000721F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494C87EB1C336FD6000721F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		494C87EF1C336FD6000721F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494C87F01C336FD6000721F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494C88091C336FD6000721F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		494C880A1C336FD6000721F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		494C880C1C336FD6000721F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "UI14_TableView自定义 cell 代理设计模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI14-TableView----cell-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		494C880D1C336FD6000721F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "UI14_TableView自定义 cell 代理设计模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI14-TableView----cell-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		494C880F1C336FD6000721F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI14_TableView自定义 cell 代理设计模式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI14-TableView----cell-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI14_TableView自定义 cell 代理设计模式.app/UI14_TableView自定义 cell 代理设计模式";
+			};
+			name = Debug;
+		};
+		494C88101C336FD6000721F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI14_TableView自定义 cell 代理设计模式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI14-TableView----cell-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI14_TableView自定义 cell 代理设计模式.app/UI14_TableView自定义 cell 代理设计模式";
+			};
+			name = Release;
+		};
+		494C88121C336FD6000721F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI14_TableView自定义 cell 代理设计模式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI14-TableView----cell-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI14_TableView自定义 cell 代理设计模式";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		494C88131C336FD6000721F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI14_TableView自定义 cell 代理设计模式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI14-TableView----cell-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI14_TableView自定义 cell 代理设计模式";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494C87D91C336FD6000721F5 /* Build configuration list for PBXProject "UI14_TableView自定义 cell 代理设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C88091C336FD6000721F5 /* Debug */,
+				494C880A1C336FD6000721F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494C880B1C336FD6000721F5 /* Build configuration list for PBXNativeTarget "UI14_TableView自定义 cell 代理设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C880C1C336FD6000721F5 /* Debug */,
+				494C880D1C336FD6000721F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		494C880E1C336FD6000721F5 /* Build configuration list for PBXNativeTarget "UI14_TableView自定义 cell 代理设计模式Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C880F1C336FD6000721F5 /* Debug */,
+				494C88101C336FD6000721F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		494C88111C336FD6000721F5 /* Build configuration list for PBXNativeTarget "UI14_TableView自定义 cell 代理设计模式UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C88121C336FD6000721F5 /* Debug */,
+				494C88131C336FD6000721F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494C87D61C336FD6000721F5 /* Project object */;
+}

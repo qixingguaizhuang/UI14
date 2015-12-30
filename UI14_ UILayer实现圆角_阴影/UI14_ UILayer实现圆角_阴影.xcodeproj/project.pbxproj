@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49F19F231C33C8420053FAB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F19F221C33C8420053FAB1 /* main.m */; };
+		49F19F261C33C8420053FAB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F19F251C33C8420053FAB1 /* AppDelegate.m */; };
+		49F19F291C33C8420053FAB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F19F281C33C8420053FAB1 /* ViewController.m */; };
+		49F19F2C1C33C8420053FAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F19F2A1C33C8420053FAB1 /* Main.storyboard */; };
+		49F19F2E1C33C8420053FAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F19F2D1C33C8420053FAB1 /* Assets.xcassets */; };
+		49F19F311C33C8420053FAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F19F2F1C33C8420053FAB1 /* LaunchScreen.storyboard */; };
+		49F19F3C1C33C8430053FAB1 /* UI14__UILayer_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F19F3B1C33C8430053FAB1 /* UI14__UILayer_______Tests.m */; };
+		49F19F471C33C8430053FAB1 /* UI14__UILayer_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F19F461C33C8430053FAB1 /* UI14__UILayer_______UITests.m */; };
+		49F19F551C33C9130053FAB1 /* 1 下午9.00.33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49F19F541C33C9130053FAB1 /* 1 下午9.00.33.jpg */; };
+		49F19F571C33D81F0053FAB1 /* 2 下午9.00.33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49F19F561C33D81F0053FAB1 /* 2 下午9.00.33.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49F19F381C33C8430053FAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F19F161C33C8410053FAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F19F1D1C33C8410053FAB1;
+			remoteInfo = "UI14_ UILayer实现圆角_阴影";
+		};
+		49F19F431C33C8430053FAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F19F161C33C8410053FAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F19F1D1C33C8410053FAB1;
+			remoteInfo = "UI14_ UILayer实现圆角_阴影";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49F19F1E1C33C8410053FAB1 /* UI14_ UILayer实现圆角_阴影.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI14_ UILayer实现圆角_阴影.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F19F221C33C8420053FAB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49F19F241C33C8420053FAB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49F19F251C33C8420053FAB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49F19F271C33C8420053FAB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49F19F281C33C8420053FAB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49F19F2B1C33C8420053FAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49F19F2D1C33C8420053FAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49F19F301C33C8420053FAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49F19F321C33C8420053FAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F19F371C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI14_ UILayer实现圆角_阴影Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F19F3B1C33C8430053FAB1 /* UI14__UILayer_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI14__UILayer_______Tests.m"; sourceTree = "<group>"; };
+		49F19F3D1C33C8430053FAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F19F421C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI14_ UILayer实现圆角_阴影UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F19F461C33C8430053FAB1 /* UI14__UILayer_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI14__UILayer_______UITests.m"; sourceTree = "<group>"; };
+		49F19F481C33C8430053FAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F19F541C33C9130053FAB1 /* 1 下午9.00.33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1 下午9.00.33.jpg"; sourceTree = "<group>"; };
+		49F19F561C33D81F0053FAB1 /* 2 下午9.00.33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2 下午9.00.33.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F19F1B1C33C8410053FAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F19F341C33C8430053FAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F19F3F1C33C8430053FAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49F19F151C33C8410053FAB1 = {
+			isa = PBXGroup;
+			children = (
+				49F19F201C33C8410053FAB1 /* UI14_ UILayer实现圆角_阴影 */,
+				49F19F3A1C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影Tests */,
+				49F19F451C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影UITests */,
+				49F19F1F1C33C8410053FAB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49F19F1F1C33C8410053FAB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F19F1E1C33C8410053FAB1 /* UI14_ UILayer实现圆角_阴影.app */,
+				49F19F371C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影Tests.xctest */,
+				49F19F421C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F19F201C33C8410053FAB1 /* UI14_ UILayer实现圆角_阴影 */ = {
+			isa = PBXGroup;
+			children = (
+				49F19F241C33C8420053FAB1 /* AppDelegate.h */,
+				49F19F251C33C8420053FAB1 /* AppDelegate.m */,
+				49F19F561C33D81F0053FAB1 /* 2 下午9.00.33.jpg */,
+				49F19F541C33C9130053FAB1 /* 1 下午9.00.33.jpg */,
+				49F19F271C33C8420053FAB1 /* ViewController.h */,
+				49F19F281C33C8420053FAB1 /* ViewController.m */,
+				49F19F2A1C33C8420053FAB1 /* Main.storyboard */,
+				49F19F2D1C33C8420053FAB1 /* Assets.xcassets */,
+				49F19F2F1C33C8420053FAB1 /* LaunchScreen.storyboard */,
+				49F19F321C33C8420053FAB1 /* Info.plist */,
+				49F19F211C33C8420053FAB1 /* Supporting Files */,
+			);
+			path = "UI14_ UILayer实现圆角_阴影";
+			sourceTree = "<group>";
+		};
+		49F19F211C33C8420053FAB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49F19F221C33C8420053FAB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49F19F3A1C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影Tests */ = {
+			isa = PBXGroup;
+			children = (
+				49F19F3B1C33C8430053FAB1 /* UI14__UILayer_______Tests.m */,
+				49F19F3D1C33C8430053FAB1 /* Info.plist */,
+			);
+			path = "UI14_ UILayer实现圆角_阴影Tests";
+			sourceTree = "<group>";
+		};
+		49F19F451C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影UITests */ = {
+			isa = PBXGroup;
+			children = (
+				49F19F461C33C8430053FAB1 /* UI14__UILayer_______UITests.m */,
+				49F19F481C33C8430053FAB1 /* Info.plist */,
+			);
+			path = "UI14_ UILayer实现圆角_阴影UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49F19F1D1C33C8410053FAB1 /* UI14_ UILayer实现圆角_阴影 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F19F4B1C33C8430053FAB1 /* Build configuration list for PBXNativeTarget "UI14_ UILayer实现圆角_阴影" */;
+			buildPhases = (
+				49F19F1A1C33C8410053FAB1 /* Sources */,
+				49F19F1B1C33C8410053FAB1 /* Frameworks */,
+				49F19F1C1C33C8410053FAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI14_ UILayer实现圆角_阴影";
+			productName = "UI14_ UILayer实现圆角_阴影";
+			productReference = 49F19F1E1C33C8410053FAB1 /* UI14_ UILayer实现圆角_阴影.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49F19F361C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F19F4E1C33C8430053FAB1 /* Build configuration list for PBXNativeTarget "UI14_ UILayer实现圆角_阴影Tests" */;
+			buildPhases = (
+				49F19F331C33C8430053FAB1 /* Sources */,
+				49F19F341C33C8430053FAB1 /* Frameworks */,
+				49F19F351C33C8430053FAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F19F391C33C8430053FAB1 /* PBXTargetDependency */,
+			);
+			name = "UI14_ UILayer实现圆角_阴影Tests";
+			productName = "UI14_ UILayer实现圆角_阴影Tests";
+			productReference = 49F19F371C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49F19F411C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F19F511C33C8430053FAB1 /* Build configuration list for PBXNativeTarget "UI14_ UILayer实现圆角_阴影UITests" */;
+			buildPhases = (
+				49F19F3E1C33C8430053FAB1 /* Sources */,
+				49F19F3F1C33C8430053FAB1 /* Frameworks */,
+				49F19F401C33C8430053FAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F19F441C33C8430053FAB1 /* PBXTargetDependency */,
+			);
+			name = "UI14_ UILayer实现圆角_阴影UITests";
+			productName = "UI14_ UILayer实现圆角_阴影UITests";
+			productReference = 49F19F421C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F19F161C33C8410053FAB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "doll-61";
+				TargetAttributes = {
+					49F19F1D1C33C8410053FAB1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					49F19F361C33C8430053FAB1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 49F19F1D1C33C8410053FAB1;
+					};
+					49F19F411C33C8430053FAB1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 49F19F1D1C33C8410053FAB1;
+					};
+				};
+			};
+			buildConfigurationList = 49F19F191C33C8410053FAB1 /* Build configuration list for PBXProject "UI14_ UILayer实现圆角_阴影" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49F19F151C33C8410053FAB1;
+			productRefGroup = 49F19F1F1C33C8410053FAB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F19F1D1C33C8410053FAB1 /* UI14_ UILayer实现圆角_阴影 */,
+				49F19F361C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影Tests */,
+				49F19F411C33C8430053FAB1 /* UI14_ UILayer实现圆角_阴影UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49F19F1C1C33C8410053FAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F19F311C33C8420053FAB1 /* LaunchScreen.storyboard in Resources */,
+				49F19F551C33C9130053FAB1 /* 1 下午9.00.33.jpg in Resources */,
+				49F19F571C33D81F0053FAB1 /* 2 下午9.00.33.jpg in Resources */,
+				49F19F2E1C33C8420053FAB1 /* Assets.xcassets in Resources */,
+				49F19F2C1C33C8420053FAB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F19F351C33C8430053FAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F19F401C33C8430053FAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F19F1A1C33C8410053FAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F19F291C33C8420053FAB1 /* ViewController.m in Sources */,
+				49F19F261C33C8420053FAB1 /* AppDelegate.m in Sources */,
+				49F19F231C33C8420053FAB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F19F331C33C8430053FAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F19F3C1C33C8430053FAB1 /* UI14__UILayer_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F19F3E1C33C8430053FAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F19F471C33C8430053FAB1 /* UI14__UILayer_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49F19F391C33C8430053FAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49F19F1D1C33C8410053FAB1 /* UI14_ UILayer实现圆角_阴影 */;
+			targetProxy = 49F19F381C33C8430053FAB1 /* PBXContainerItemProxy */;
+		};
+		49F19F441C33C8430053FAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49F19F1D1C33C8410053FAB1 /* UI14_ UILayer实现圆角_阴影 */;
+			targetProxy = 49F19F431C33C8430053FAB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49F19F2A1C33C8420053FAB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F19F2B1C33C8420053FAB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49F19F2F1C33C8420053FAB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F19F301C33C8420053FAB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49F19F491C33C8430053FAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49F19F4A1C33C8430053FAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49F19F4C1C33C8430053FAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI14_ UILayer实现圆角_阴影/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI14--UILayer-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49F19F4D1C33C8430053FAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI14_ UILayer实现圆角_阴影/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI14--UILayer-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49F19F4F1C33C8430053FAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI14_ UILayer实现圆角_阴影Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI14--UILayer-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI14_ UILayer实现圆角_阴影.app/UI14_ UILayer实现圆角_阴影";
+			};
+			name = Debug;
+		};
+		49F19F501C33C8430053FAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI14_ UILayer实现圆角_阴影Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI14--UILayer-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI14_ UILayer实现圆角_阴影.app/UI14_ UILayer实现圆角_阴影";
+			};
+			name = Release;
+		};
+		49F19F521C33C8430053FAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI14_ UILayer实现圆角_阴影UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI14--UILayer-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI14_ UILayer实现圆角_阴影";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49F19F531C33C8430053FAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI14_ UILayer实现圆角_阴影UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI14--UILayer-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI14_ UILayer实现圆角_阴影";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F19F191C33C8410053FAB1 /* Build configuration list for PBXProject "UI14_ UILayer实现圆角_阴影" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F19F491C33C8430053FAB1 /* Debug */,
+				49F19F4A1C33C8430053FAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F19F4B1C33C8430053FAB1 /* Build configuration list for PBXNativeTarget "UI14_ UILayer实现圆角_阴影" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F19F4C1C33C8430053FAB1 /* Debug */,
+				49F19F4D1C33C8430053FAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49F19F4E1C33C8430053FAB1 /* Build configuration list for PBXNativeTarget "UI14_ UILayer实现圆角_阴影Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F19F4F1C33C8430053FAB1 /* Debug */,
+				49F19F501C33C8430053FAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49F19F511C33C8430053FAB1 /* Build configuration list for PBXNativeTarget "UI14_ UILayer实现圆角_阴影UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F19F521C33C8430053FAB1 /* Debug */,
+				49F19F531C33C8430053FAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F19F161C33C8410053FAB1 /* Project object */;
+}
